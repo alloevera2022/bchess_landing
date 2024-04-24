@@ -1,6 +1,7 @@
 .main-header {
     width: 100vw;
-    height: 66px;
+    background-color: transparent;
+    position: absolute;  
 }
 
 .navigation-links {
@@ -20,10 +21,14 @@
     /* Дополнительные свойства для стилизации кнопки */
     border: none;
     color: white;
-    font-size: 16px;
     cursor: pointer;
     font-family: "Sarpanch", sans-serif;
     font-weight: 600;
     font-size: 22px;
+}
+
+.logo {
+    width: 140px;
+    height: 19px;
 
 }

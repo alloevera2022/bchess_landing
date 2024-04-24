@@ -1,0 +1,18 @@
+.main_info {
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main_info_content {
+    max-width: 724px;
+
+}
+
+.main_info_content_text {
+    text-align: center;
+    font-size: 22px;
+    line-height: 26.4px;
+    
+}
