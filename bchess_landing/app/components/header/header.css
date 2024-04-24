@@ -1,0 +1,29 @@
+.main-header {
+    width: 100vw;
+    height: 66px;
+}
+
+.navigation-links {
+    padding: 12px 88px 12px 88px;    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ 
+.button-play-header {
+    background-image: url('../public/button_header.png');
+    /* Добавьте другие свойства для управления размером, повторением и расположением фона */
+    width: 184px; /* Примерная ширина */
+    height: 48px; /* Примерная высота */
+    background-size: cover; /* Масштабировать изображение, чтобы оно полностью заполняло фон */
+    background-position: center; /* Расположить изображение по центру */
+    /* Дополнительные свойства для стилизации кнопки */
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: "Sarpanch", sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+
+}
