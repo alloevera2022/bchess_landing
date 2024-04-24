@@ -1,0 +1,7 @@
+.play_and_tour {
+    background-image: url('../public/7.png');
+    height: 200vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
