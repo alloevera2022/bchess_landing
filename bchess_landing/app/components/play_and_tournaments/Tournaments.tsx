@@ -1,7 +1,7 @@
 import "./tournaments.css";
-import Chess_img2 from '/workspace/bchess_landing/bchess_landing/app/components/public/8.png';
-import Tour_bg1 from '/workspace/bchess_landing/bchess_landing/app/components/public/9.png';
-import Tour_bg2 from '/workspace/bchess_landing/bchess_landing/app/components/public/10.png';
+import Chess_img2 from '../public/8.png';
+import Tour_bg1 from '../public/9.png';
+import Tour_bg2 from '../public/10.png';
 
 
 export default function Tournaments() {

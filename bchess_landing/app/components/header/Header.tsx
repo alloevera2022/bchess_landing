@@ -1,5 +1,5 @@
 import "./header.css";
-import logo_blue from '/workspace/bchess_landing/bchess_landing/app/components/public/logo_blue.png';
+import logo_blue from '../public/logo_blue.png';
 
 export default function Header() {
     return (

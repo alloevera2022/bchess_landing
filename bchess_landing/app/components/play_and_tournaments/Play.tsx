@@ -1,5 +1,5 @@
 import "./play.css";
-import Chess_img from '/workspace/bchess_landing/bchess_landing/app/components/public/6.png';
+import Chess_img from '../public/6.png';
 
 
 export default function Play() {

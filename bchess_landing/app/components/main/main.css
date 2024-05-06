@@ -21,7 +21,7 @@
     /* Расположить изображение по центру */
     height: 412px;
     width: 1048px;
-    margin-top: -360px;
+    margin-top: -260px;
     display: flex;
     flex-direction: column;
     justify-content: center;
