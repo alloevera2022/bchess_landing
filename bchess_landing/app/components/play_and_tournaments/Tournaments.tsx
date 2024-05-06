@@ -17,7 +17,7 @@ export default function Tournaments() {
                 <div className="tournaments_content_block">
                     <div className="tournaments_content_text">
                         <h1 className="tournaments_header">Tournaments: Coming Soon</h1>
-                        <h2 className="tournaments_sub_header">We're in the process of developing tournament features that will bring competitive chess to BChess.io. Our goal is to ensure these tournaments are cheat-proof and fair, providing an authentic and competitive environment for all players. Stay tuned for updates as we work to bring this exciting feature to life!</h2>
+                        <h2 className="tournaments_sub_header">We&apos;re in the process of developing tournament features that will bring competitive chess to BChess.io. Our goal is to ensure these tournaments are cheat-proof and fair, providing an authentic and competitive environment for all players. Stay tuned for updates as we work to bring this exciting feature to life!</h2>
                     </div>
 
                 </div>
