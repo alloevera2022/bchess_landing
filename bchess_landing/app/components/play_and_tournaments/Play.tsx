@@ -4,7 +4,6 @@ import Chess_img from '../public/6.png';
 export default function Play() {
     return (
         <section className="play">
-
             <div className="play_content">
                 <div className="play_content_block">
                     <div className="play_content_text">
@@ -18,6 +17,5 @@ export default function Play() {
                 </div>
             </div>
         </section>
-
     );
 }
