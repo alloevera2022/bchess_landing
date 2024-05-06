@@ -1,7 +1,7 @@
 import "./tournaments.css";
-import Chess_img2 from '../public/8.png';
-import Tour_bg1 from '../public/9.png';
-import Tour_bg2 from '../public/10.png';
+import Chess_img2 from '../public/8.webp';
+import Tour_bg1 from '../public/9.webp';
+import Tour_bg2 from '../public/10.webp';
 
 
 export default function Tournaments() {

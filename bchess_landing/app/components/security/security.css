@@ -28,7 +28,7 @@
 }
 
 .securuty_content_block {
-    background-image: url('../public/3.png');
+    background-image: url('../public/3.webp');
     background-size: cover;
     background-position: center;
     height: 652px;
@@ -65,7 +65,7 @@
 }
 
 .securuty_try_btn{
-    background-image: url('../public/button_white.png');
+    background-image: url('../public/button_white.webp');
     width: 184px;
     height: 48px;
     background-size: cover;

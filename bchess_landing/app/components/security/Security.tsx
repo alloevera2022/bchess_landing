@@ -1,7 +1,7 @@
 import "./security.css";
-import Security_img from '../public/2.png';
-import Security_bg_img1 from '../public/4.png';
-import Security_bg_img2 from '../public/5.png';
+import Security_img from '../public/2.webp';
+import Security_bg_img1 from '../public/4.webp';
+import Security_bg_img2 from '../public/5.webp';
 
 export default function Security() {
     return (

@@ -1,5 +1,5 @@
 import "./play.css";
-import Chess_img from '../public/6.png';
+import Chess_img from '../public/6.webp';
 
 export default function Play() {
     return (

@@ -1,10 +1,10 @@
-.main {
-    background-image: url('../public/main_bg.webp');
-    height: 120vh;
+.join {
+    /* background-image: url('../public/main_bg.png'); */
+    height: 100vh;
     /* Примерная высота */
-    background-size: cover;
+    /* background-size: cover; */
     /* Масштабировать изображение, чтобы оно полностью заполняло фон */
-    background-position: center;
+    /* background-position: center; */
     /* Расположить изображение по центру */
     font-size: 16px;
     display: flex;
@@ -13,36 +13,41 @@
 }
 
 
-.main_content_block {
-    background-image: url('../public/1.webp');
+.join_content_block {
+    background-image: url('../public/12.png');
     background-size: cover;
     /* Масштабировать изображение, чтобы оно полностью заполняло фон */
     background-position: center;
     /* Расположить изображение по центру */
-    height: 412px;
-    width: 1048px;
-    margin-top: -260px;
+    height: 712px;
+    width: 1264px;
+
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
 }
 
-.main_header {
-
-    font-size: 50px;
+.join_header {
+    margin-top: 77px;
+    font-size: 36px;
     text-align: center;
 }
-.main_sub_header {
+.join_sub_header {
     margin-top: 8px;
-    font-size: 25px;
+    font-size: 20px;
     font-family: var(--alt-font);
     font-weight: 400;
-    max-width: 434px;
+    max-width: 868px;
     text-align: center;
 }
 
-.button_play_main {
+.join_buttons {
+    display: flex;
+    gap: 32px;
+}
+
+.button_play_join {
     background-image: url('../public/button_big.png');
     width: 292px;
     height: 60px;
