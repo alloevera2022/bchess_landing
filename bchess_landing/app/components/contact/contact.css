@@ -8,51 +8,48 @@
     /* Расположить изображение по центру */
     font-size: 16px;
     display: flex;
-    justify-content: center;
+    justify-content: right;
     align-items: center;
+    margin-right: 8vw;
 }
 
 
 .contact_content_block {
-    background-image: url('../public/14.png');
+    background-image: url('../public/14.webp');
     background-size: cover;
     /* Масштабировать изображение, чтобы оно полностью заполняло фон */
     background-position: center;
     /* Расположить изображение по центру */
     height: 560px;
     width: 800px;
+    padding-left: 80px;
 
     display: flex;
     flex-direction: column;
     /* justify-content: center; */
-    align-items: center;
+    align-items: left;
 }
 
 .contact_header {
-    margin-top: 77px;
+    margin-top: 147px;
     font-size: 36px;
-    text-align: center;
+    text-align: left;
 }
 .contact_sub_header {
     margin-top: 8px;
     font-size: 20px;
     font-family: var(--alt-font);
     font-weight: 400;
-    /* max-width: 868px; */
-    text-align: center;
+    max-width: 408px;
+    text-align: left;
 }
 
 .contact_buttons {
     display: flex;
-    gap: 32px;
+    gap: 22px;
 }
 
 .button_play_contact {
-    background-image: url('../public/button_big.png');
-    width: 292px;
-    height: 60px;
-    background-size: cover;
-    background-position: center;
     border: none;
     color: white;
     cursor: pointer;

@@ -22,6 +22,7 @@ export default function Home() {
       <Join></Join>
       <FAQ></FAQ>
       <Contact></Contact>
+      <Header></Header>
     </main>
   );
 }

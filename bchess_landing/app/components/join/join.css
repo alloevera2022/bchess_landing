@@ -14,7 +14,7 @@
 
 
 .join_content_block {
-    background-image: url('../public/12.png');
+    background-image: url('../public/12.webp');
     background-size: cover;
     /* Масштабировать изображение, чтобы оно полностью заполняло фон */
     background-position: center;
@@ -48,7 +48,7 @@
 }
 
 .button_play_join {
-    background-image: url('../public/button_big.png');
+    background-image: url('../public/button_big.webp');
     width: 292px;
     height: 60px;
     background-size: cover;

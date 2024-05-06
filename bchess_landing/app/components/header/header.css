@@ -12,7 +12,7 @@
 }
  
 .button-play-header {
-    background-image: url('../public/button_header.png');
+    background-image: url('../public/button_header.webp');
     /* Добавьте другие свойства для управления размером, повторением и расположением фона */
     width: 184px; /* Примерная ширина */
     height: 48px; /* Примерная высота */

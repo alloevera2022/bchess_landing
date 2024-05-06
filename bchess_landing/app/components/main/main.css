@@ -43,7 +43,7 @@
 }
 
 .button_play_main {
-    background-image: url('../public/button_big.png');
+    background-image: url('../public/button_big.webp');
     width: 292px;
     height: 60px;
     background-size: cover;
