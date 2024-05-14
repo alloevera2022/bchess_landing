@@ -33,6 +33,7 @@
     font-size: 50px;
     text-align: center;
 }
+
 .main_sub_header {
     margin-top: 8px;
     font-size: 25px;
@@ -56,4 +57,27 @@
     font-size: 26px;
     text-align: center;
     margin-top: 52px;
+}
+
+@media (max-width: 1025px) {
+
+    .navigation-links {
+        padding: 12px 22px 12px 22px;
+    }
+
+    .main_content_block {
+        background-image: url('../public/1.webp');
+        background-size: cover;
+        /* Масштабировать изображение, чтобы оно полностью заполняло фон */
+        background-position: center;
+        /* Расположить изображение по центру */
+        height: 412px;
+        width: 100%;
+        margin-top: -260px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
 }

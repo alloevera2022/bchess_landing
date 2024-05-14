@@ -1,5 +1,5 @@
 import "./tournaments.css";
-import Chess_img2 from '../public/8.webp';
+import Chess_img2 from '../public/8new.webp';
 import Tour_bg1 from '../public/9.webp';
 import Tour_bg2 from '../public/10.webp';
 

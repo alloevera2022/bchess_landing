@@ -16,3 +16,18 @@
     line-height: 26.4px;
     
 }
+
+
+
+@media (max-width: 1025px) {
+    .main_info_content {
+        padding: 0 10px;
+    }
+
+    .main_info {
+        height: 70vh;
+
+    }
+
+
+}

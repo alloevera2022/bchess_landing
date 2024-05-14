@@ -56,3 +56,45 @@
     font-size: 20px;
     max-width: 724px;
 }
+
+
+@media (max-width: 1025px) {
+
+    .tournaments {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        margin-top: 100px;
+    }
+
+    .tournaments_content {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .tournaments_content_text {
+        margin-top: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        max-width: auto;
+        margin-left: 0; 
+        padding: 0 14px; 
+    }
+    
+    .tournaments_img {
+        max-width: 100vw;
+        position: relative;
+        z-index: 1;  
+    }
+
+    .tournaments_bg_img1 {
+        position:  absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        max-width: 60%;  
+    }
+
+}

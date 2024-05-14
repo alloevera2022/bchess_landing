@@ -1,11 +1,5 @@
 .contact {
-    /* background-image: url('../public/main_bg.png'); */
     height: 100vh;
-    /* Примерная высота */
-    /* background-size: cover; */
-    /* Масштабировать изображение, чтобы оно полностью заполняло фон */
-    /* background-position: center; */
-    /* Расположить изображение по центру */
     font-size: 16px;
     display: flex;
     justify-content: right;
@@ -17,16 +11,12 @@
 .contact_content_block {
     background-image: url('../public/14.webp');
     background-size: cover;
-    /* Масштабировать изображение, чтобы оно полностью заполняло фон */
     background-position: center;
-    /* Расположить изображение по центру */
     height: 560px;
     width: 800px;
     padding-left: 80px;
-
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
     align-items: left;
 }
 
@@ -58,4 +48,56 @@
     font-size: 26px;
     text-align: center;
     margin-top: 52px;
+}
+
+@media (max-width: 1025px) {
+
+    .contact {
+        display: flex;
+        justify-content: center;
+        height: 50vh;
+    }
+    
+    
+    .contact_content_block {
+        background-image: url('../public/14.webp');
+        background-size: cover;
+        background-position: left;
+        height: 560px;
+        width: 100vw;
+        padding-left: 80px;
+        display: flex;
+        flex-direction: column;
+        align-items: left;
+    }
+    
+    .contact_header {
+        margin-top: 147px;
+        font-size: 36px;
+        text-align: left;
+    }
+    .contact_sub_header {
+        margin-top: 8px;
+        font-size: 20px;
+        font-family: var(--alt-font);
+        font-weight: 400;
+        max-width: 408px;
+        text-align: left;
+    }
+    
+    .contact_buttons {
+        display: flex;
+        gap: 22px;
+    }
+    
+    .button_play_contact {
+        border: none;
+        color: white;
+        cursor: pointer;
+        font-family: "Sarpanch", sans-serif;
+        font-weight: 600;
+        font-size: 26px;
+        text-align: center;
+        margin-top: 52px;
+    }
 }

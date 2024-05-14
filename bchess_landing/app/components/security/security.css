@@ -79,3 +79,34 @@
     text-align: center;
     margin-top: 5%;
 }
+
+
+@media (max-width: 1025px) {
+    
+    .securuty_content_block {
+        background-image: url('../public/3.webp');
+        background-size: none;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 100%;
+        width: 100%;
+        margin-top: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .securuty_content_text {
+        margin-top: 0;
+        padding: 0 14px;
+
+    }
+    
+    .securuty_content_img > img {
+        max-width: 100%;
+        margin-top: 0;
+        margin-left: 0;   
+    }
+    
+    }
