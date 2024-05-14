@@ -23,6 +23,7 @@
     font-size: 36px;
     text-align: center;
 }
+
 .join_sub_header {
     margin-top: 8px;
     font-size: 20px;
@@ -55,27 +56,30 @@
 
 
 @media (max-width: 1025px) {
+    .join {
+        margin-top: 54vh;
+    }
 
     .join_content_block {
-    background-image: url('../public/12.webp');
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-    width: 100vw;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0 14px;
-}
-
-.join_sub_header {
-    max-width: auto;
-}
-
-.join_buttons {
-    display: none;
-    gap: 32px;
-} 
- 
-    
+        background-image: url('../public/12.webp');
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0 14px;
     }
+
+    .join_sub_header {
+        max-width: auto;
+    }
+
+    .join_buttons {
+        display: none;
+        gap: 32px;
+    }
+
+
+}
