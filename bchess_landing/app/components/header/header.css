@@ -41,7 +41,21 @@
 @media (max-width: 1025px) {
 
     .navigation-links {
-        padding: 12px 22px 12px 22px;
+        padding: 10px 20px 10px 20px;
+    }
+
+    .button-play-header {
+        background-image: url('../public/button_header.webp');
+        /* Добавьте другие свойства для управления размером, повторением и расположением фона */
+        width: 138px;
+        /* Примерная ширина */
+        height: 36px;
+        /* Примерная высота */
+        background-size: cover;
+        /* Масштабировать изображение, чтобы оно полностью заполняло фон */
+        background-position: center;
+
+        font-size: 18px;
     }
 
 }
