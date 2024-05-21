@@ -6,8 +6,8 @@ export default function Main() {
         <section className="main">
             <div className="main_content">
             <div className="main_content_block">
-                <h1 className="main_header">Welcome to BChess.io</h1>
-                <h2 className="main_sub_header">The Future of Chess is Onchain with Blast.io Blockchain*</h2>
+                <h1 className="main_header">Welcome to BChess!</h1>
+                <h2 className="main_sub_header">Join the Onchain Future of Chess with Blast Chain</h2>
                 <button className="button_play_main">Play</button>
             </div>
             </div>

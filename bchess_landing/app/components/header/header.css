@@ -1,23 +1,27 @@
 .main-header {
     width: 100vw;
     background-color: transparent;
-    position: absolute;  
+    position: absolute;
 }
 
 .navigation-links {
-    padding: 12px 88px 12px 88px;    
+    padding: 12px 88px 12px 88px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
- 
+
 .button-play-header {
     background-image: url('../public/button_header.webp');
     /* Добавьте другие свойства для управления размером, повторением и расположением фона */
-    width: 184px; /* Примерная ширина */
-    height: 48px; /* Примерная высота */
-    background-size: cover; /* Масштабировать изображение, чтобы оно полностью заполняло фон */
-    background-position: center; /* Расположить изображение по центру */
+    width: 184px;
+    /* Примерная ширина */
+    height: 48px;
+    /* Примерная высота */
+    background-size: cover;
+    /* Масштабировать изображение, чтобы оно полностью заполняло фон */
+    background-position: center;
+    /* Расположить изображение по центру */
     /* Дополнительные свойства для стилизации кнопки */
     border: none;
     color: white;
@@ -35,8 +39,13 @@
 
 
 @media (max-width: 1025px) {
-    
+
     .navigation-links {
-        padding: 12px 22px 12px 22px;}    
-    
+        padding: 12px 22px 12px 22px;
     }
+
+}
+
+
+
+
