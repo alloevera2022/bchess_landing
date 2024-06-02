@@ -8,7 +8,7 @@ export default function Main() {
             <div className="main_content_block">
                 <h1 className="main_header">Welcome to BChess!</h1>
                 <h2 className="main_sub_header">Join the Onchain Future of Chess with Blast Chain</h2>
-                <button className="button_play_main">Play</button>
+                <button className="button_play_main"><a href="https://app.bchess.io" className="link">Play</a></button>
             </div>
             </div>
 

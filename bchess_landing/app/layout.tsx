@@ -1,7 +1,7 @@
-import { GoogleAnalytics } from '@next/third-parties/google';
 import type { Metadata } from "next";
 import "./globals.css";
 import "./reset.css";
+import { GoogleAnalytics } from '@next/third-parties/google';
 
 export const metadata: Metadata = {
   title: "B-Chess Landing",
@@ -15,8 +15,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <GoogleAnalytics gaId="G-NBMFQZTXSE" />
       <body>{children}</body>
+      <GoogleAnalytics gaId="G-NBMFQZTXSE" />
     </html>
   );
 }
