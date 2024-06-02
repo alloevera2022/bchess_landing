@@ -15,8 +15,7 @@ export default function Join() {
 
             </div>
             </div>
-
-            
+           
         </section>
 
     );
